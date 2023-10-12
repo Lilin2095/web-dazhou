@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/scene.css">
+    <title>达州-旅游景点</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .main {
+            width: 100%;
+            height: 1650px;
+            background-image: url(./images/1-3.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            /*这种情况是垂直居中*/
+            justify-content: center;
+            /*这种情况是水平居中*/
+        }
+
+        .head {
+            width: 800px;
+            height: 250px;
+            background-image: url(./images/1-2.jpg);
+            background-size: cover;
+            /* background-size: 750px 250px; */
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        .head h1 {
+            text-align: center;
+
+        }
+
+        .contain {
+            width: 800px;
+            height: 1570px;
+            /* background-color:cyan; */
+            position: absolute;
+            /* margin: auto; */
+            /* margin-left: 200px;
+            margin-top: 50px; */
+            border-radius: 30px;
+        }
+
+        .nav {
+            height: 40px;
+            background-color: white;
+        }
+
+        .navlist li {
+            float: left;
+            height: 40px;
+            width: 140px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .navlist a {
+            /* color: black; */
+            display: block;
+        }
+
+        .navlist {
+            width: 800px;
+            margin: auto;
+        }
+
+        .h1 {
+            text-align: center;
+            position: relative;
+            top: 100px;
+            font-size: 50px;
+            font-family: "宋体";
+            color: white;
+        }
+
+        .container {
+            width: 800px;
+            height: 1300px;
+            background-color: rgb(255, 255, 255, 0.5);
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        hr {
+            width: 700px;
+            margin: 0 auto;
+            border: none;
+            height: 1px;
+            background: rgb(210, 204, 204);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contain">
+            <div class="head">
+                <h1 class="h1">城市美食</h1>
+            </div>
+            <div class="nav">
+                <ul class="navlist">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="introduction.html">城市简介</a></li>
+                    <li><a href="history.html">历史文化</a></li>
+                    <li><a href="food.html">城市美食</a></li>
+                    <li><a href="scene.html">旅游景点</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="container-div">
+                    <img src="./images/4-1.jpg" alt="" width="300px" height="240px">
+                    <div class="container-h">
+                        <h4 class="h4">巴山大峡谷</h4>
+                        <p style="text-indent:2em;letter-spacing: .2rem;">
+                            巴山大峡谷前身为“宣汉百里峡”,位于四川省达州市宣汉县境内,是喀斯特岩溶地貌构成的山地峡谷型自然风景区,是国家AAAA级旅游景区,大巴山国家地质公园,国家森林公园，
+                            省级自然保护区，天然褶皱造型博物馆，崖柏保护地，四川十大红叶旅游目的地，古巴人文化的富集地，国家级非物质文化遗产土家薅草锣鼓衍生地、最受网民喜爱的网红打卡。
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="container-div">
+                    <div class="container-h">
+                        <h4 class="h4">賨人谷</h4>
+                        <p style="text-indent:2em;letter-spacing: .2rem;">賨人谷是国家AAAA级旅游区,省级风景名胜区,省级森林公园,省级生态旅游示范区。賨人谷位于四川省达州市渠县城东26公里,地处华蓥山脉中北段,面积41平方公里,
+                            以奇山、秀水、幽洞、丽峡、飞瀑、湖泊、涌泉、怪石、古栈、茂林著称，被誉为川东“小九寨”。
+                            賨人谷拥有全国唯一的賨人穴居部落遗址和賨人文化陈列馆,有“奇山奇水奇石景，古賨古洞古部落”的美誉。</p>
+                    </div>
+                    <img src="./images/2-1.jpg" alt="" width="300px" height="230px" >
+                </div>
+                <hr>
+                <div class="container-div">
+                    <img src="./images/2-2.jpg" alt="" width="300px" height="240px" >
+                    <div class="container-h">
+                        <h4 class="h4">真佛山</h4>
+                        <p style="text-indent:2em;letter-spacing: .2rem;">真佛山国家AAAA级旅游景区，省级风景名胜区，省级重点文物保护单位，是集佛教、儒教、道教于一体的“三教圣地”。真佛山相传是如来佛祖下凡投胎化为孝子，取名蒋德化，自幼以孝善为本，曾五次割股疗亲和救治当地百姓，后落发为僧，在此自立佛堂，修建庙宇，取名“德化寺”，从此扬名千里，香火日益鼎盛。</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="container-div">
+                    <div class="container-h">
+                      <h4 class="h4">八台山</h4>
+                      <p style="text-indent:2em;letter-spacing: .2rem;">八台山景区由“巴山天池，棋盘妙韵，默音石芽，层峦叠翠、一峰独秀、壁立千仞、观音圣泉、八台金鼎”等景点组成。这里石芽林立、形态奇巧、绝壁断崖，蔚为壮观，系典型的喀斯特地貌。“云海、日出、雾岚”堪称“三绝”，且常有“佛光”毕现，故“川西有峨眉，川东有八台”之美称。</p>
+                    </div>
+                    <img src="./images/4-2.jpg" alt=""  width="300px" height="230px">
+                </div>
+            </div>
+
+</body>
+
+</html>

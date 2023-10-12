@@ -1,0 +1,32 @@
+.container-div {
+    width: 780px;
+    height: 280px;
+    /* background-color: cornflowerblue; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:5px;
+}
+.h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "楷体";
+    font-size: 30px;
+    color: white;
+    margin-left:50px;
+}
+.container-h{
+    width: 450px;
+    height: 270px;
+    margin-left:20px;
+}
+.container-h p{
+    color:white;
+    font-size:20px;
+}
+.container-div img{
+    position: relative;
+    top:20px;
+}

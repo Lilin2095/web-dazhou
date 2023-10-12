@@ -1,0 +1,76 @@
+.contain{
+    width: 800px;
+    height: 1500px;
+    position:absolute;
+    /* margin-left: 200px;
+    margin-top: 50px; */
+    border-radius:30px;
+}
+.nav {
+    height: 40px;
+    background-color:white;
+}
+.navlist li {
+    float: left;
+    height: 40px;
+    width: 140px;
+    line-height: 40px;
+    text-align: center;
+}
+.navlist a {
+    display: block;
+}
+.navlist {
+    width: 800px;
+    margin: auto;
+}
+.introduction{
+    width: 350px;
+    height: 360px;
+    float: left;
+    margin-left:30px;
+    margin-top: 30px;
+}
+.history{
+    width: 350px;
+    height: 360px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.food{
+    width: 350px;
+    height: 360px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.scene{
+    width: 350px;
+    height: 360px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.foot{
+    width:800px;
+    height:800px;
+    background-color:rgb(255,255,255,0.5);
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+.word{
+    text-indent:2em;
+    font-size: 14px;
+    color:white;
+}
+.h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family:"楷体";
+    color:white;
+}
+.container{
+    margin-top: 10px;
+}
